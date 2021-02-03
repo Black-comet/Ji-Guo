@@ -1,0 +1,126 @@
+.fenlei {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 48px;
+    height: 170px;
+    position: relative;
+}
+
+.fenlei h3 {
+    margin-left: 42%;
+    font-size: 40px;
+}
+
+.fenlei ul {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 330px;
+    overflow: hidden;
+}
+
+.fenlei li {
+    width: 165px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #AAA6A5;
+    cursor: pointer;
+    float: left;
+}
+
+li.active1 {
+    color: #F8572B;
+    border-bottom: 4px solid #F8572B;
+}
+
+.fenlei li:hover {
+    color: #F8572B;
+}
+
+.kuwan {
+    padding-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F7F7F7;
+    padding-bottom: 20px;
+}
+
+.kuwan_1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.kuwan_1 h3 {
+    margin: 15px 0;
+    font-size: 22px;
+    float: left;
+}
+
+.kuwan_1 a {
+    margin: 20px 0;
+    float: right;
+    font-size: 14px;
+    color: #FF605A;
+}
+
+.kuwan_1 a img {
+    vertical-align: middle;
+}
+
+.kuwan ul {
+    width: 1000px;
+    overflow: hidden;
+    float: left;
+}
+
+.kuwan ul li {
+    background-color: white;
+    width: 220px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    height: 230px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #634756;
+}
+
+.kuwan ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.kuwan_1 ul li>img:first-of-type {
+    width: 220px;
+    height: 130px;
+    margin-bottom: 8px;
+    border-radius: 5px 5px 0 0;
+}
+
+.kuwan_1 ul li p {
+    margin: 0 10px;
+}
+
+.kuwan_1 ul li div {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 10px;
+}
+
+.kuwan_1 ul li div {
+    color: #D0CBC3;
+}
+
+.gengduo,
+.zhuanquan {
+    margin-left: 45%;
+    float: left;
+    color: #DE6632;
+    cursor: pointer;
+}
+
+.zhuanquan {
+    margin-left: 49%;
+    display: none;
+}
